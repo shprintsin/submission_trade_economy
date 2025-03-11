@@ -1,5 +1,5 @@
 
-- [`canada_list.csv`](https://github.com/shprintsin/submission_trade_economy/blob/main/canada/canada_list.csv "canada_list.csv") - List of the tariffed products, and phase of tarrif
+[`canada_list.csv`](https://github.com/shprintsin/submission_trade_economy/blob/main/canada/canada_list.csv "canada_list.csv") - List of the tariffed products, and phase of tarrif
 
 -	 [Source of Stage 1](https://www.canada.ca/en/department-finance/news/2025/03/list-of-products-from-the-united-states-subject-to-25-per-cent-tariffs-effective-march-4-2025.html) -  -Canada Govement Site
 	
