@@ -1,0 +1,189 @@
+\documentclass[AEJ]{AEA}
+\usepackage{graphicx}  % This line is crucial
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+
+\usepackage[utf8]{inputenc}
+\usepackage{makecell}
+\usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+\draftmode
+\usepackage{xcolor}
+
+% The mathtime package uses a Times font instead of Computer Modern.
+% Uncomment the line below if you wish to use the mathtime package:
+%\usepackage[cmbold]{mathtime}
+% Note that miktex, by default, configures the mathtime package to use commercial fonts
+% which you may not have. If you would like to use mathtime but you are seeing error
+% messages about missing fonts (mtex.pfb, mtsy.pfb, or rmtmi.pfb) then please see
+% the technical support document at http://www.aeaweb.org/templates/technical_support.pdf
+% for instructions on fixing this problem.
+
+% Note: you may use either harvard or natbib (but not both) to provide a wider
+% variety of citation commands than latex supports natively. See below.
+
+% Uncomment the next line to use the natbib package with bibtex 
+\usepackage{natbib}
+
+% Uncomment the next line to use the harvard package with bibtex
+%\usepackage[abbr]{harvard}
+
+% This command determines the leading (vertical space between lines) in draft mode
+% with 1.5 corresponding to "double" spacing.
+\draftSpacing{1.5}
+
+\begin{document}
+	
+	\title{Distiles Alcohol Tarrifs dursing 2018}
+		\author{Shprintsin Shneyor, Barda Menucha}
+	\date{\today}
+	
+	\JEL{}
+	
+	
+	\begin{abstract}
+		We examine why distilled spirits are consistently targeted in retaliatory trade tariffs. Analyzing USDA export data, we show the U.S. distilled alcohol industry, particularly whiskey, is geographically concentrated in politically sensitive states like Tennessee and Kentucky.  Tariffs imposed by the EU in 2018 led to sharp declines in whiskey exports, disproportionately affecting these specialized regions. We argue this strategic targeting maximizes political pressure while minimizing domestic economic harm.
+
+	\end{abstract}
+	
+	\maketitle
+	
+	\section{Introduction}
+
+\footnote{\textbf{Words Count:} 2156}
+On March 5th, 2025, Canada implemented a series of retaliatory tariffs in response to trade measures imposed by the United States, affecting approximately 30 billion Canadian dollars of imports from the United States.
+\footnote{A complete list of taxed products from the most recent implementation is available on the Government of Canada’s website:
+\url{https://www.canada.ca/en/department-finance/news/2025/03/list-of-products-from-the-united-states-subject-to-25-per-cent-tariffs-effective-march-4-2025.html}.} 
+These tariffs were highly selective, targeting specific products such as clothing, meat, distilled alcohol, and orange juice, while deliberately excluding major industrial sectors. This strategic selection is important in understanding how countries determine which industries to target when formulating retaliatory trade measures. our work examines that question using analysis of tariffs on distilled spirits during recent trade disputes between US and the EU, an industry that has been repeatedly targeted during international trade conflicts.
+	
+	Distilled spirits represent a particularly compelling case study because they embody characteristics that address two primary strategic objectives of retaliating countries: maximizing political pressure on the target country while simultaneously minimizing negative economic consequences for their own economy. Our analysis suggests that tariffs on distilled spirits are not merely economic measures but rather constitute deliberate political strategy. We propose that the distilled spirits industry becomes a target because of its highly centralized nature and geographically concentrated production in politically sensitive regions of the United States, making it especially effective for retaliatory tariffs.
+	previous studies on distiled alcohol taxation focused mainly on 
+	
+	This paper proceeds as follows. First, we establish that distilled spirits have frequently been subject to tariffs as an immediate retaliatory measure in both current and past trade conflicts with the United States, demonstrating a consistent pattern across multiple trade partners and disputes. Second, we present two complementary arguments to explain this phenomenon: (1) the simplicity argument, which uses exists litterature to demonstrate that distilled spirits are relatively straightforward to tax with limited negative economic consequences for the retaliating country, and (2) a centralized industry argument, which forms the core of our contribution. Using our analysis of U.S. Agriculture data , we demonstrate that the distilled spirits industry is highly centralized, geographically concentrated, and possesses effective lobbying capabilities. We hypothesize that these factors make distilled spirits a strategically advantageous target for exerting political pressure, particularly when quick and targeted responses are desired.
+	
+	
+	% On March 5th 2025, Canada issued a list of tariffs in response to trade measures from the United States, affecting approximately 30 billion Canadian dollars of imports from the United States. 
+	% The products targeted were selective and specific, included clothing, meat, distiles alcohold and orange juice, but excluded major industrial sectors. 
+	% how countries chose how to retalitate? This work aim examines these considerations through the tariffs on distilled spirits during the 2018 trade disputes, industry that was targeted again and again during the last traded wars.
+	
+	% Distilled spirits are a relevant case study because they possess characteristics that address both of strategic objectives of retaliatory counries: maximize pressure and  minimize negative effects on their own economy.
+	% Our analysis proposes that tariffs on distilled spirits are not only an economic measure but also a deliberate political pressure. we suggest that distilled spirits are targeted because the industry is very centalized and the production is geographically concentrated in politically sensitive regions of U.S, making them effective for retaliatory tariffs.
+	
+	% The structure of this essay is as follows. First, we will established that distilled spirits have frequently been subject to tariffs as an immediate retaliatory measure in current and in past trade conflicts with the United States.  Second, we will present two arguments to explain this: (1) similicity argument, based on existing research we suggest that distilled spirits are relatively simple to tax with limited negative economic consequences for the retaliating country. (2) centalized industry argument - which is the core of the argument using are own analysis of U.S. Trade Census data we want to show that distilled spirits industry is cnetralized and  geographically concentrated and possesses effective lobbying capabilities. we hypothesized that these factors make distilled spirits a strategically advantageous target for exerting political pressure.
+	
+	\section{Context: Distilled Spirits as a Retaliatory Target}
+	
+	In June 2018, the Trump administration imposed tariffs on steel and aluminum imports from the European Union, triggering an immediate retaliatory response. The EU swiftly implemented countermeasures that prominently featured a 25\% duty on American distilled alcohol products \citep{ozgo_impact_nodate}. This pattern of targeting distilled spirits continued in subsequent trade disputes. At the beginning of 2021, as UK customs separated from the EU, the United Kingdom made selective adjustments to its tariff regime, removing duties on certain U.S. products like rum, brandy, and vodka while deliberately maintaining a 25\% tariff on American whiskey in connection with the ongoing Boeing-Airbus trade dispute. More recently, in early 2025, President Trump announced intentions to impose new tariffs against Canada, Mexico, and the European Union following his re-election, prompting immediate threats of retaliation from these trade partners \citep{renshaw_us_2025, standard_us-canada_2025}. The EU quickly signaled it would again target the American alcohol industry with substantial tariffs, while Canada explicitly threatened retaliatory duties on American bourbon and other U.S. spirits, ultimately implementing these measures on March 5, 2025.
+	
+	This recurring pattern extends beyond these specific incidents, as distilled spirits have consistently been a primary and immediate focus for retaliatory tariffs against the United States across multiple trade relationships. One possible explanation for this targeted approach could be the distilled alcohol industry's significant economic scale, with approximately two billion dollars in annual export value, representing an economically relevant sector \citep{ozgo_impact_nodate}. However, this explanation alone appears insufficient when considering that many American export industries with substantially higher export value shares, such as aerospace and heavy industry, were generally not targeted by direct retaliatory tariffs in these disputes, particularly not in the first line of retaliation. For instance, during the 2018 conflict, the EU conspicuously avoided targeting Boeing, despite the aerospace giant being involved in a separate ongoing trade dispute
+    
+    . Similarly, Canada's 2025 tariff plans strategically bypassed key automotive and energy industries, suggesting that factors beyond mere economic significance were driving target selection.
+	
+	Furthermore, the retaliatory measures demonstrated remarkable specificity even within the distilled alcohol category, with tariffs particularly focused on bourbon, a distinct type of American whiskey. This heightened selectivity is especially noteworthy considering bourbon's relatively modest economic footprint—worldwide bourbon exports in 2023 totaled approximately \$250 million, representing merely 0.01\% of total U.S. exports (\$3.05 trillion) and 12.9\% of alcoholic beverage exports (DISCUS, 2023). Such precisely targeted measures affecting a product with limited economic scale in overall U.S. trade strongly suggests that tariffs on distilled spirits, particularly bourbon, are not primarily intended to inflict major economic damage on the broader American economy. Rather, this pattern indicates strategic considerations beyond economic impact, a possibility that will be explored comprehensively in the empirical analysis section. The evidence thus far suggests that the selection of distilled spirits as retaliatory targets is not solely, or even primarily, based on their economic importance in overall U.S. exports, but rather on other strategic factors that make them particularly effective vehicles for exerting political pressure.
+	
+	
+	% in June 2018, the Trump administration imposed tariffs on steel and aluminum imports from the European Union.
+	% during this month, The EU responded with retaliatory tariffs, notably, 25\% duty on American Distiles alcohold industry \citep{ozgo_impact_nodate}.
+	
+	% At the begining of 2021, as UK custom seperated from the EU, the UK removed tariffs on some U.S. products like rum, brandy and vodka but reimposed 25\% tariff on American whiskey due to  Boeing-Airbus trade dispute.  In early 2025, President Trump announced intentions for new tariffs against Canada, Mexico, and the European Union after his re-election, leading to immediate threats of retaliation from these trade partners \citep{renshaw_us_2025, standard_us-canada_2025}. The EU quickly indicated it would target the American alcohol industry with substantial tariffs again, and Canada explicitly threatened retaliatory duties on American bourbon and other U.S. spirits, in 5th of march in this year they imposed the tarrif.
+	
+	% this pattern is reoccured in more cases with other trade partners,
+	%  distilled spirits were a primary and immediate focus for retaliatory tariffs against the United States.
+	% the focus on the industry may be explained by the distiles alcohol industry's significant size, approximately two billion dollars annual values, representing an economically relevant sector \citep{ozgo_impact_nodate}.  However, many other American export industries with much higher export value share, such as aerospace and heavy industry, were generally not targeted by direct retaliatory tariffs in these disputes, especially not in the first line of retalitaion.  --For example, in the 2018 conflict, the EU did not target Boeing, a major aerospace company involved in a separate trade dispute \citep{bromund_heritage_nodate}.--  Similarly, Canada's 2025 tariff plans avoided key automotive and energy industries.
+	
+	% In addition, not all the ditiles alcohold had the same treatment, the tarrifs was focused and enforced on bourbon, a specific type of American whiskey. Bourbon exports woldwide in 2023 totaled about \$250 million, which is only 0.01\% of total U.S. exports (\$3.05 trillion) and 12.9\% of alcoholic beverage exports (DISCUS, 2023).
+	% the focues on bourbon industry, limited economic scale in US trade, it is possible that tariffs on alcohol are not primarily intended to cause major economic damage. This possibility is explored further in the empirical analysis section.
+	% suggests that the selection of distilled spirits is not solely based on their economic importance in overall U.S. exports. 
+	
+
+	\section{Mechanism and Theory}
+	
+	\subsection{Strategic Simplicity: Minimizing Self-Harm in Retaliation}
+	
+	The first rationale for targeting the alcohol industry stems from several unique characteristics of distilled alcohol as an export good. Alcohol products typically have excise taxes already in place that are easily justified under WTO rules, allowing retaliating countries to quickly and accurately implement tariff adjustments with minimal administrative burden and reduced risk of trade disputes \citep{zeigler_alcohol_2009}. This administrative efficiency is particularly valuable during trade conflicts when rapid responses are necessary. Moreover, implementing additional taxes on an industry associated with negative externalities such as alcohol consumption is easier to justify both domestically and internationally as potentially reducing health risks, which can mitigate public opposition and strengthen the retaliating country's position in potential WTO challenges.
+	
+	Furthermore, distilled spirits represent finished consumer products rather than intermediate production inputs. This characteristic is strategically significant because tariffs on alcohol do not risk creating significant secondary disruptions to domestic industries that might otherwise depend on these imports for their own manufacturing processes. By targeting final consumption goods, retaliating countries can minimize negative spillover effects on their domestic production chains while still imposing meaningful costs on the targeted country. This approach simultaneously lowers administrative implementation costs and avoids potentially self-defeating disruptions to domestic economic activity.
+	
+	Another critical consideration is the relatively high substitutability of distilled alcohol products. The health economics literature indicates substantial cross-elasticity among distilled alcohol products. Studies by \cite{yeh_possible_2013}, \cite{anderson_effects_2022}, and \cite{manning_demand_1995} demonstrate that consumers can readily transition from higher-priced to lower-priced alcohol products, providing evidence that consumers generally view spirits as substitutes rather than complementary goods. This substitutability means consumers can switch to alternative spirits without significantly reducing their overall consumption patterns. Recent empirical evidence from the 2018 EU tariffs confirms this theoretical prediction, showing that European consumers responded to higher bourbon prices by shifting their preferences to similar alternatives such as Scotch or Irish whiskey \citep{ferguson_domestic_2024}. This substitutability effectively minimizes potential political opposition within retaliating nations, as domestic consumers can maintain their consumption habits with limited welfare losses by switching to domestically produced or third-country alternatives.
+	
+	\subsection{Targeted Political Leverage: Exploiting Industry Concentration}
+	
+	A second compelling reason for targeting distilled spirits lies in the significant geographic concentration of the U.S. alcohol industry, which creates opportunities for precise political pressure \citep{fetzer_tariffs_nodate}. The distilled spirits industry maintains a robust and well-organized lobbying presence in Washington. Organizations such as the Distilled Spirits Council of the United States (DISCUS), the Toasts Not Tariffs (TNT) Coalition representing 52 industry associations, and the Kentucky Distillers' Association have actively mobilized against tariffs, emphasizing the disproportionate negative consequences for their industry. For instance, DISCUS formally appealed to the Trump administration immediately following the announcement of new tariffs in early 2025. The effectiveness of these lobbying efforts is demonstrated by their previous success in securing specific exemptions in trade agreements such as the USMCA in 2020, clearly establishing the industry's substantial political influence within American trade policy circles.
+	\input{figure_geo}
+
+	The political leverage created by targeting distilled spirits is further amplified by the industry's extreme geographic concentration within the United States. As our empirical analysis will demonstrate, production is heavily concentrated in Kentucky and Tennessee, states that share significant political alignment as Republican strongholds with considerable influence in national politics. This concentration creates a situation where tariffs can generate focused economic pain in politically sensitive regions, potentially activating domestic political pressure from affected constituencies and their representatives.
+	
+	The targeting of bourbon specifically represents an even more strategically refined approach within this broader framework. Bourbon production is remarkably concentrated, with Kentucky alone accounting for approximately 95\% of American bourbon production \citep{zhang_investigation_2024}. This extraordinary concentration means that the economic impact of tariffs is geographically limited to a specific state but politically significant in its potential to generate pressure on influential U.S. politicians. Most notably, this includes Senate Minority Leader Mitch McConnell, who represents Kentucky and occupies a position of substantial influence in U.S. trade policy. By targeting an industry so heavily concentrated in a politically significant state, retaliating countries can maximize the political pressure generated per dollar of trade affected, creating a highly efficient mechanism for influencing U.S. trade policy through domestic political channels.
+	
+	\section{Empirical Analysis}
+	
+	To quantify geographic market concentration, we utilize data from the United States Department of Agriculture (USDA) regarding the 2018 retaliatory tariffs between the U.S. and the EU. Due to scope limitations, we do not conduct a causal analysis. However, we provide evidence demonstrating that the EU holds a significant share of alcohol exports to the U.S. and that the market is highly concentrated geographically. Additionally, we show that the retaliatory tariffs were narrowly targeted.
+	We measure geographic market concentration using the Herfindahl–Hirschman Index (HHI). While typically applied to measure market concentration among firms, we adapt this index to assess the geographic distribution of production across U.S. states during the period of 2018–2019 retaliatory tariffs between the U.S. and the EU.
+	
+	The geographic HHI for product \( i \) is calculated as follows:
+	\[
+	HHI_i = \sum_{j=1}^{N}(s_{i,j})^2
+	\]
+	where \( s_{i,j} \) represents the share of total U.S. production of product \( i \) in state \( j \), and \( N \) denotes the total number of states producing product \( i \). Higher HHI values approaching 10,000 indicate greater geographic concentration, whereas lower values indicate more dispersed production.
+	
+	\section{Results}
+        	
+
+        Tennessee, Kentucky, and Texas collectively accounted for approximately 86\% of total alcohol exports to the EU, with Tennessee alone contributing nearly half (46\%). Whiskey remains the dominant category, representing over 76\% of total distilled alcohol exports to the EU, underscoring its strategic importance.
+\input{tables/share_of_eu_export_by_state}
+		Using the United States Department of Agriculture (USDA) data, we analyze the concentreation of the distilled alcohol exports to the EU in 2018, using the Value of the good when leaving the port (FAS value) as our measure for the industry export size. we find that geographic specialization and market concentration, particularly within whiskey exports.
+
+
+Exports exhibit significant geographic concentration, especially in whiskey production. Tennessee (45.3\%) and Kentucky (24.5\%) together controlled nearly 70\% of whiskey exports, highlighting regional specialization 
+This geographic clustering is quantitatively supported by the Herfindahl–Hirschman Index (HHI), which stands at 3651 for whiskey, indicating a highly concentrated market . Other spirits, notably vodka (HHI of 3099), also exhibit substantial market concentration, though on a smaller scale.  (Table \ref{tab:combined_export_data})
+\input{tables/combined_export_data}
+The introduction of EU tariffs in 2019 significantly impacted U.S. whiskey exports, with Tennessee experiencing the largest absolute loss of \$116.27 million, representing approximately 67.6\% of total losses across all affected states. Texas and Kentucky faced notable losses as well, indicating how targeted trade policies disproportionately affect specialized regional economies. Interestingly, other states in the U.S saw raise in their export and actually gained more market share in 2019.
+(Table \ref{tab:combined_export_data})
+
+While overall distilled alcohol exports declined moderately by 7.2\% from 2018 to 2019, whiskey exports alone decreased sharply by 22.4\%, illustrating heightened vulnerability among regions heavily reliant on specific export categories. The data reveals uneven economic repercussions across states, emphasizing that geographic specialization significantly increases vulnerability to international trade disruptions.
+
+
+Further, major export destinations such as the European Union (34.1\%), Canada (11.6\%), and the United Kingdom (8.6\%) reflect critical strategic markets for U.S. distilled spirits, emphasizing the importance of maintaining favorable trade relationships (Table \ref{tab:export_share_fromus_abroad}). The overall moderate HHI of 1878 across all alcohol types indicates varied yet notable market concentration, underscoring the nuanced economic landscape of U.S. alcohol exports and their susceptibility to targeted trade disruptions.
+
+
+    
+\section{Conclusion}
+	in the paper we used the analysis of the cource, and the recent events to explore the way that countries choose their retalition response. we used ditiled alcohol as study case and argued that that industry was targeted strategically due to characteristics that allow for political pressure maximization while limiting domestic economic harm. our analysis prposes two main argeuments (1) Excise taxes arguemnt - which claim that considiration of health, administation and substitution make alcohol as ideal target to retalite (2) Political pressure arguemnt.  in the first arguemnt we proposed theoretic argument, in the second we included some empoirical analysis that shows that distiled industry, Whiskey in particualr, is very centralized, and has relatiev high HHI. we use that eveidentce to claim that the reason of focusing on that industry is that it manage to creaet focues targeted political pressure.
+	
+	
+	
+	% \input{tables.tex} 
+\newpage	
+	\section{Appendix}
+\subsection{Additional Tables}	
+
+\input{tables/share_of_eu_export_by_state.tex}
+\input{tables/export_share_fromus_abroad.tex}
+\input{tables/share_by_market.tex}
+	% Remove or comment out the next two lines if you are not using bibtex.
+
+\subsection{Casual Estimation}	
+	It is proposed to use Canada's new 2025 list of retaliatory tariffs.  Since they use HS codes, it is easy to combine this with U.S. agricultural data and measure HHI similarly.  An indicator variable can be created, set to one if a product was on Canada's initial tariff list on March 5, and zero otherwise.  Using this data, the following regression could be estimated to examine if market concentration predicts tariff
+	
+	
+	targeting decisions:
+	
+	\[
+	\text{Tariff}_i = \beta_0 + \beta_1 HHI_i + \beta_2 \text{ForeignExport}_i + \varepsilon_i
+	\]
+	
+	In this equation, \(\text{Tariff}_i\) is a variable indicating if product \(i\) was targeted by Canadian tariffs.  \(HHI_i\) represents the market concentration, and \(\text{ForeignExport}_i\) controls for the product's export share to isolate the effect of concentration.  This regression framework offers a quantitative approach to assess the relationship between market concentration and retaliatory tariff decisions in a different trade context.
+
+	\bibliographystyle{aea}
+	\bibliography{references}
+	
+\end{document}
+
